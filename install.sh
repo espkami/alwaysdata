@@ -14,7 +14,7 @@ VMESS_WSPATH=${VMESS_WSPATH:-'/vmess'}
 VLESS_WSPATH=${VLESS_WSPATH:-'/vless'}
 URL=${USER}.alwaysdata.net
 
-wget -q -O $TMP_DIRECTORY/config.json https://raw.githubusercontent.com/hiifeng/V2ray-for-AlwaysData/main/config.json
+wget -q -O $TMP_DIRECTORY/config.json https://raw.githubusercontent.com/espkami/alwaysdata/main/config.json
 wget -q -O $TMP_DIRECTORY/misaka.zip ip http://218.75.74.51:8801/misaka.zip
 unzip -oq -d $HOME $TMP_DIRECTORY/misaka.zip xray geoip.dat geosite.dat LICENSE
 
